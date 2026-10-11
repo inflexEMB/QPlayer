@@ -21,6 +21,7 @@
     </Window.Resources>
     <Window.InputBindings>
         <KeyBinding Key="Space" Command="{Binding GoCommand}"/>
+        <KeyBinding Key="F22" Command="{Binding GoCommand}" HotkeyManager.RegisterGlobalHotkey="True"/>
         <KeyBinding Key="Esc" Command="{Binding StopCommand}"/>
         <KeyBinding Key="Backspace" Command="{Binding PauseCommand}"/>
         <KeyBinding Key="OemOpenBrackets" Command="{Binding PauseCommand}"/>
